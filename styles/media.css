@@ -1,0 +1,33 @@
+@media (max-width: 1250px) {
+    .main-header > ul > li {
+      width: 100px;
+      font-size: 14px;
+    }
+    
+  }
+  
+@media (max-width: 700px) {
+    .navigation-menu {
+      display: block;
+    }
+
+    .navigation-menu > li  {
+      display: inline-block;
+      width: 200px;
+      text-align: center;
+      font-size: 16px;
+      padding: 0;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+  .menu-icon-mobile {
+    display: block;
+  }
+
+  .navigation-menu {
+    display: none;
+  }
+}
