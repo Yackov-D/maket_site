@@ -6,10 +6,14 @@
     
   }
   
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .navigation-menu {
       display: block;
     }
+
+    .grid-item {
+      width: 100%;
+  }
 
     .navigation-menu > li  {
       display: inline-block;
@@ -19,6 +23,11 @@
       padding: 0;
       margin-bottom: 10px;
       margin-top: 10px;
+    }
+
+    .main-title {
+      font-size: 42px;
+      line-height: 2;
     }
 }
 
