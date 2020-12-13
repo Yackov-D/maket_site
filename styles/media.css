@@ -29,6 +29,12 @@
       font-size: 42px;
       line-height: 2;
     }
+
+    .booking-input {
+      width: 100%;
+      margin-top: 10px ;
+      margin-right: 10px;
+    }
 }
 
 @media (max-width: 650px) {
