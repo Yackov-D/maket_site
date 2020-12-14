@@ -31,9 +31,9 @@
     }
 
     .booking-input {
-      width: 100%;
+      width: calc(100% - 36px);
       margin-top: 10px ;
-      margin-right: 10px;
+      margin-right: 0;
     }
 }
 
