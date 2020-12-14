@@ -35,6 +35,18 @@
       margin-top: 10px ;
       margin-right: 0;
     }
+
+    .menu-checkbox:checked ~ .navigation-menu {
+      display: block;
+    }
+    
+    .menu-checkbox {
+      display: none;
+    }
+    
+    .navigation-menu {
+      display: none;
+    }
 }
 
 @media (max-width: 650px) {

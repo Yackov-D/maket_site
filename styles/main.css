@@ -273,3 +273,15 @@ h1, h2 {
 .booking-row-top {
     margin-top: 20px;
 }
+
+.menu-checkbox:checked ~ .navigation-menu {
+    display: block;
+  }
+  
+  .menu-checkbox {
+    display: none;
+  }
+  
+  .navigation-menu {
+    display: none;
+  }
